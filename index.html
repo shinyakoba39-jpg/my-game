@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mini Game Site</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        header { text-align: center; padding: 40px 0; }
+        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+        .card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h2 { color: #333; }
+        .card p { color: #666; font-size: 0.9em; }
+        .btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎮 暇つぶしゲームサイト</h1>
+    <p>作ったゲームをここに並べていこう！</p>
+</header>
+
+<div class="container">
+    <!-- ゲーム1 -->
+    <div class="card">
+        <h2>数字あてゲーム</h2>
+        <p>1〜100の数字を当てる定番ゲーム</p>
+        <a href="game.html" class="btn">プレイする</a>
+    </div>
+
+    <!-- ゲーム2（今後ここに追加） -->
+    <div class="card">
+        <h2>Coming Soon...</h2>
+        <p>新しいゲームを制作中！</p>
+        <a href="#" class="btn" style="background:#ccc;">準備中</a>
+    </div>
+</div>
+
+</body>
+</html>
